@@ -25,7 +25,7 @@
             }
             
             if (usernameValue === validUsername && passwordValue === validPassword) {
-                window.location.href = 'index.html';
+                window.location.href = 'main.html';
             } else {
                 messageDiv.textContent = 'Credenciales incorrectas. Intente nuevamente';
                 messageDiv.className = 'error-message';
